@@ -12,6 +12,7 @@
 		2FF467F81DB6652A00CD9C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF467F61DB6652A00CD9C15 /* Main.storyboard */; };
 		2FF467FA1DB6652A00CD9C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF467F91DB6652A00CD9C15 /* Assets.xcassets */; };
 		2FF467FD1DB6652A00CD9C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF467FB1DB6652A00CD9C15 /* LaunchScreen.storyboard */; };
+		2FF468051DB6721300CD9C15 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF468041DB6721300CD9C15 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FF467F91DB6652A00CD9C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF467FC1DB6652A00CD9C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FF467FE1DB6652A00CD9C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF468041DB6721300CD9C15 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2FF467F21DB6652A00CD9C15 /* AppDelegate.swift */,
 				2FF467F41DB6652A00CD9C15 /* ViewController.swift */,
 				2FF467F61DB6652A00CD9C15 /* Main.storyboard */,
+				2FF468041DB6721300CD9C15 /* ScrollViewController.swift */,
 				2FF467F91DB6652A00CD9C15 /* Assets.xcassets */,
 				2FF467FB1DB6652A00CD9C15 /* LaunchScreen.storyboard */,
 				2FF467FE1DB6652A00CD9C15 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FF467F51DB6652A00CD9C15 /* ViewController.swift in Sources */,
+				2FF468051DB6721300CD9C15 /* ScrollViewController.swift in Sources */,
 				2FF467F31DB6652A00CD9C15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
